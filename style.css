@@ -3,12 +3,10 @@
   margin: 0px 0px;
 }
 
-body {
-  
-}
+body {}
 
 nav {
-  margin: 0 5rem;
+  margin: 0 8%;
   height: 5rem;
   display: flex;
   justify-content: space-between;
@@ -39,31 +37,96 @@ nav {
   text-align: center;
 }
 
-input[type=text]{
+input[type=text] {
   width: 40%;
   padding: 3px;
-  border : none;
-  border-radius: 3px ;
+  border: none;
+  border-radius: 3px;
 }
 
 button {
   padding: 3px;
   background-color: tomato;
   color: #fff;
-  border : none;
-  border-radius: 3px ;
+  border: none;
+  border-radius: 3px;
 }
 
-.ExplorFood{
-  margin: 0 5rem;
+.ExplorFood {
+  margin: 0 8%;
+  height: 30rem;
 }
 
 .ExplorTitle {
-  padding-top: 4rem;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 700;
+  
+}
+
+.ExplorImages{
+  width: 28%;
+  float: left;
+  margin: 2%;
+}
+
+.ExplorImages img{
+  width: 100%;
+  border-radius: 8px;
+}
+
+.flot-container{
+  position: relative;
+}
+
+.flot-text{
+  position: absolute;
+  bottom: 40px;
+  color: #fff;
+  left: 35%;
+  font-size: 1.5rem;
+}
+ 
+
+.foodmenu {
+  background: gainsboro;
+}
+
+.foodmenu {
+  padding: 0 8%;
+
+}
+
+.MenuTitle {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-size: 1.5rem;
   text-align: center;
   font-weight: 700;
 }
 
-.foodimages {
-  
+.menu-container{
+  display: flex;
+  justify-content: space-between;
+     padding: 1% 0px;
+
+}
+
+.food-Information{
+  display: flex;
+}
+
+
+ .food-menu-Box{
+   border :1px solid black;
+   width: 45%;
+   height: 5rem;
+ }
+
+.food-img img {
+  width: 20%;
+  padding: 1%;
+  border-radius: 10px;
 }
