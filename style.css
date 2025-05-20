@@ -5,6 +5,10 @@
 
 body {}
 
+a{
+  text-decoration: none;
+  color: tomato;
+}
 nav {
   margin: 0 8%;
   height: 5rem;
@@ -18,7 +22,6 @@ nav {
 
 .navmenu a {
   color: tomato;
-  text-decoration: none;
   margin: auto 0px;
   padding-left: 2rem;
 }
@@ -91,7 +94,7 @@ button {
  
 
 .foodmenu {
-  background: gainsboro;
+  background: #B7B7B7;
 }
 
 .foodmenu {
@@ -120,13 +123,68 @@ button {
 
 
  .food-menu-Box{
-   border :1px solid black;
+   border-radius: 10px;
    width: 45%;
-   height: 5rem;
+   height: 6.5rem;
+   background-color: gainsboro
+   ;
  }
 
+.food-img{
+  width: 30%;
+}
 .food-img img {
-  width: 20%;
+  width: 100%;
   padding: 1%;
   border-radius: 10px;
+}
+
+.food-name{
+  padding: 1% 0px 0px 2% ;
+  
+
+}
+.food-mrp{
+  font-weight: 700;
+  margin-top: 2%;
+
+}
+
+.food-discription {
+  font-weight: 400;
+  font-size: 0.7rem;
+}
+
+.food-order{
+  margin-top: 2%;
+}
+
+.see-all-food {
+  text-align: center;
+  padding: 2% 0% 5% 0%;
+  font-size: 1.2rem;
+}
+
+
+.social-media-icon a img{
+  height: 3rem;
+  padding: 1rem;
+  align-content: center;
+}
+
+.social-media-icon{
+  padding-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-line{
+  text-align: center;
+}
+.Namecolor{
+  color: tomato;
+}
+
+footer{
+  padding-bottom: 2%;
 }
