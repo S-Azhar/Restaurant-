@@ -1,40 +1,54 @@
 * {
   padding: 0px;
   margin: 0px 0px;
+  font-family: Big Caslon, Book Antiqua, Palatino Linotype, Georgia, serif;
 }
 
 body {}
 
-a{
+a {
   text-decoration: none;
   color: tomato;
 }
+
+.side-margin {
+  padding: 0 8%;
+}
+
 nav {
-  margin: 0 8%;
   height: 5rem;
   display: flex;
   justify-content: space-between;
 }
 
-.navmenu {
+.navmenu,
+.brandImage {
   margin: auto 0;
 }
+
 
 .navmenu a {
   color: tomato;
   margin: auto 0px;
-  padding-left: 2rem;
+  margin-left: 2rem;
 }
 
+a :active {
+  font-size: 5rem;
+}
+
+
+/* Search Section CSS*/
+
 .FoodSearch {
-  
   background-image: url(/Assets/bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  height: 15rem;
 }
 
 .Search {
-  padding: 6%;
+  padding: 8%;
   color: #000;
   margin: auto;
   text-align: center;
@@ -42,7 +56,7 @@ nav {
 
 input[type=text] {
   width: 40%;
-  padding: 3px;
+  padding: 3px 3px 3px 15px;
   border: none;
   border-radius: 3px;
 }
@@ -56,7 +70,6 @@ button {
 }
 
 .ExplorFood {
-  margin: 0 8%;
   height: 30rem;
 }
 
@@ -69,38 +82,37 @@ button {
   
 }
 
-.ExplorImages{
-  width: 28%;
-  float: left;
-  margin: 2%;
+.ExplorImages {
+  width: 30%;
 }
 
-.ExplorImages img{
+.img-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ExplorImages img {
   width: 100%;
   border-radius: 8px;
 }
 
-.flot-container{
+.flot-container {
   position: relative;
 }
 
-.flot-text{
+.flot-text {
   position: absolute;
   bottom: 40px;
   color: #fff;
   left: 35%;
   font-size: 1.5rem;
 }
- 
+
 
 .foodmenu {
   background: #B7B7B7;
 }
 
-.foodmenu {
-  padding: 0 8%;
-
-}
 
 .MenuTitle {
   padding-top: 5%;
@@ -110,44 +122,45 @@ button {
   font-weight: 700;
 }
 
-.menu-container{
+.menu-container {
   display: flex;
   justify-content: space-between;
-     padding: 1% 0px;
-
+  padding: 1% 0px;
+  
 }
 
-.food-Information{
+.food-Information {
   display: flex;
 }
 
 
- .food-menu-Box{
-   border-radius: 10px;
-   width: 45%;
-   height: 6.5rem;
-   background-color: gainsboro
-   ;
- }
+.food-menu-Box {
+  border-radius: 10px;
+  width: 45%;
+  height: 6.5rem;
+  background-color: gainsboro;
+}
 
-.food-img{
+.food-img {
   width: 30%;
 }
+
 .food-img img {
   width: 100%;
   padding: 1%;
   border-radius: 10px;
 }
 
-.food-name{
-  padding: 1% 0px 0px 2% ;
+.food-name {
+  padding: 1% 0px 0px 2%;
   
-
+  
 }
-.food-mrp{
+
+.food-mrp {
   font-weight: 700;
   margin-top: 2%;
-
+  
 }
 
 .food-discription {
@@ -155,7 +168,7 @@ button {
   font-size: 0.7rem;
 }
 
-.food-order{
+.food-order {
   margin-top: 2%;
 }
 
@@ -166,25 +179,67 @@ button {
 }
 
 
-.social-media-icon a img{
+.social-media-icon a img {
   height: 3rem;
   padding: 1rem;
   align-content: center;
 }
 
-.social-media-icon{
+.social-media-icon {
   padding-top: 1rem;
   display: flex;
   justify-content: center;
 }
 
-.footer-line{
+.footer-line {
   text-align: center;
 }
-.Namecolor{
+
+.Namecolor {
   color: tomato;
 }
 
-footer{
+footer {
   padding-bottom: 2%;
+}
+
+
+
+@media only screen and (max-width: 786px) {
+  nav {
+    height: 5.2rem;
+    display: block;
+  }
+  
+  .brandImage {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .brandImage img {
+    width: 50%;
+    margin: 2% 0px;
+  }
+  
+  .navmenu a {
+    margin: 0 4%;
+  }
+  
+  .FoodSearch {
+    height: 7.25rem;
+  }
+  
+  .Search {
+    padding: 13%;
+  }
+  
+  input[type=text] {
+    width: 100%;
+  }
+  
+  .Search button {
+    width: 50%;
+    margin-top: 0.5rem;
+  }
+  
 }
