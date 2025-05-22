@@ -26,7 +26,6 @@ nav {
   margin: auto 0;
 }
 
-
 .navmenu a {
   color: tomato;
   margin: auto 0px;
@@ -39,7 +38,6 @@ a :active {
 
 
 /* Search Section CSS*/
-
 .FoodSearch {
   background-image: url("Assets/bg.jpg");
   background-size: cover;
@@ -111,6 +109,9 @@ button {
   font-size: 1.5rem;
 }
 
+
+
+  /* Food Menu Section CSS*/
 .foodmenu {
   background: #B7B7B7;
 }
@@ -132,7 +133,6 @@ button {
 .food-Information {
   display: flex;
 }
-
 
 .food-menu-Box {
   border-radius: 10px;
@@ -177,8 +177,6 @@ button {
 }
 
 
-
-
 /* Footer Section Start */
 .social-media-icon a img {
   width: 3rem;
@@ -212,6 +210,7 @@ footer {
     padding: 0px 4%;
   }
   
+    /* Nav Section CSS */
   nav {
     height: 5.2rem;
     display: block;
@@ -231,6 +230,9 @@ footer {
     margin: 0 4%;
   }
   
+  
+  
+  /* Search Section CSS*/
   .FoodSearch {
     height: 9.2rem;
   }
@@ -249,6 +251,8 @@ footer {
     margin-top: 0.5rem;
   }
   
+  
+  /* Explor Food Section CSS*/
   .ExplorFood {
     padding-bottom: 5%;
   }
@@ -264,6 +268,8 @@ footer {
   }
   
   
+  
+  /* Food Menu Section CSS*/
   .menu-container {
     display: block;
     padding: 0px;
@@ -278,9 +284,7 @@ footer {
     width: 42%;
     display: flex;
     justify-content: center;
-    
   }
-  
   
   .food-discription{
     font-size: 0.8rem;
