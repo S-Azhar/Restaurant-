@@ -4,8 +4,6 @@
   font-family: Big Caslon, Book Antiqua, Palatino Linotype, Georgia, serif;
 }
 
-body {}
-
 a {
   text-decoration: none;
   color: tomato;
@@ -42,21 +40,21 @@ a :active {
   background-image: url("Assets/bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 15rem;
 }
 
 .Search {
-  padding: 8%;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
   color: #000;
-  margin: auto;
-  text-align: center;
+  padding: 10% 0px; /* Add space between top & bottom */
 }
 
 input[type=text] {
   width: 40%;
   padding: 3px 3px 3px 15px;
   border: none;
-  border-radius: 3px;
+  border-radius: 5px;
 }
 
 button {
@@ -64,7 +62,7 @@ button {
   background-color: tomato;
   color: #fff;
   border: none;
-  border-radius: 3px;
+  border-radius: 5px;
 }
 
 
@@ -137,17 +135,20 @@ button {
 .food-menu-Box {
   border-radius: 10px;
   width: 45%;
-  height: 7rem;
+  height: 25%;
   background-color: gainsboro;
 }
 
 .food-img {
   width: 30%;
   height: 100%;
+  display: flex;
+  justify-items: center;
 }
 
 .food-img img {
-  width: 99%;
+  width: 98%;
+  height: 98%;
   padding: 1%;
   border-radius: 10px;
 }
@@ -233,22 +234,25 @@ footer {
   
   
   /* Search Section CSS*/
-  .FoodSearch {
-    height: 9.2rem;
-  }
+  
   
   .Search {
-    padding: 13%;
+    margin: 0px auto;
+    width: 80%;
+    padding: 15% 0px; /* Add space between top & bottom */
   }
   
   input[type=text] {
-    width: 96%;
-    padding-left: 3%;
+    width: 70%;
+    padding: 0px;
+    padding-left: 5%;
+    margin-right: 5%;
+    
   }
   
   .Search button {
-    width: 50%;
-    margin-top: 0.5rem;
+    width: 30%;
+    padding: 0.5rem;
   }
   
   
